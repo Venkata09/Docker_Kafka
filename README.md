@@ -13,6 +13,21 @@ docker ps -a
 
 docker rm $(docker ps -aq)
 
+# For Stopping all the running docker CONTAINERS. 
+
+docker stop $(docker ps -a -q)
+
+# For stopping a container
+
+docker stop my_container
+
+
+    kill all running containers with docker kill $(docker ps -q)
+      delete all stopped containers with docker rm $(docker ps -a -q)
+    delete all images with docker rmi $(docker images -q)
+    
+    
+
 ```
 
 
