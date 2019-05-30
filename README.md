@@ -22,6 +22,11 @@ docker stop $(docker ps -a -q)
 docker stop my_container
 
 
+
+Put your ID and start the DOCKER Image. 
+
+$ MY_IP=*********** docker-compose -f docker-compose.yml up
+
     kill all running containers with docker kill $(docker ps -q)
       delete all stopped containers with docker rm $(docker ps -a -q)
     delete all images with docker rmi $(docker images -q)
