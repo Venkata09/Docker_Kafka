@@ -35,5 +35,16 @@ $ MY_IP=*********** docker-compose -f docker-compose.yml up
 
 ```
 
+# Kafka Docker image with multi broker.
+
+
+1. **Container port** is a port exposed by the container and accessible from the Docker Machine.
+1. **Machine port** is a port exposed by the Docker Machine and accessible from the host.
+1. **Port mapping** is essentially forwarding a machine port to a container port.
+
+
+
+
+
 
 
